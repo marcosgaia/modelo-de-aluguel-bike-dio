@@ -1,0 +1,45 @@
+{
+  "url": "https://labdioaz900-dymhx.eastus2.inference.ml.azure.com/score",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Bearer <sua-chave-de-autenticacao>"
+  },
+  "input_data": {
+    "columns": [
+      "day",
+      "mnth",
+      "year",
+      "season",
+      "holiday",
+      "weekday",
+      "workingday",
+      "weathersit",
+      "temp",
+      "atemp",
+      "hum",
+      "windspeed"
+    ],
+    "data": [
+      [
+        15,
+        6,
+        2022,
+        2,
+        0,
+        3,
+        1,
+        1,
+        0.35,
+        0.37,
+        0.59,
+        0.12
+      ]
+    ]
+  },
+  "exemplo_resposta": {
+    "jsonOutput": [
+      364.78935594629985
+    ]
+  }
+}
