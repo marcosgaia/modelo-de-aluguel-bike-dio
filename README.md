@@ -110,3 +110,4 @@ Resposta do modelo:
 Projeto desenvolvido para fins de aprendizado, como parte do desafio da [DIO.me](https://www.dio.me/).
 
 **Autor:** [Marcos Gaia](https://github.com/marcosgaia) 👨‍💻
+**base:**  https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html
